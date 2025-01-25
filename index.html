@@ -7,35 +7,20 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
   <h1>TXT to VCF Converter</h1>
-
   <div class="container">
-    <!-- Input untuk mengunggah file TXT -->
     <label for="file-input">Pilih File TXT:</label>
     <input type="file" id="file-input" accept=".txt" multiple>
 
-    <!-- Input untuk nama file hasil -->
-    <label for="fileNameInput">Nama File Hasil:</label>
-    <input type="text" id="fileNameInput" placeholder="Masukkan nama file hasil">
-
-    <!-- Input untuk nama kontak pertama -->
     <label for="contactName1Input">Nama Kontak 1 (Nomor Pertama):</label>
-    <input type="text" id="contactName1Input" placeholder="Masukkan nama kontak pertama">
+    <input type="text" id="contactName1Input" placeholder="Nama Kontak 1">
 
-    <!-- Input untuk nama kontak kedua dan seterusnya -->
     <label for="contactName2Input">Nama Kontak 2 (Nomor Berikutnya):</label>
-    <input type="text" id="contactName2Input" placeholder="Masukkan nama kontak kedua dan seterusnya">
+    <input type="text" id="contactName2Input" placeholder="Nama Kontak 2">
 
-    <!-- Tombol untuk memulai proses konversi -->
     <button id="processFilesBtn">Proses File</button>
-
-    <!-- Area untuk menampilkan hasil setelah file diunggah -->
     <div id="file-areas"></div>
   </div>
-
-  <!-- Hubungkan ke file JavaScript eksternal -->
   <script src="script.js"></script>
-
 </body>
 </html>
